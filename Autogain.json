@@ -3,7 +3,7 @@
         "autogain#0": {
             "bypass": false,
             "input-gain": 0.0,
-            "maximum-history": 15,
+            "maximum-history": 6,
             "output-gain": 0.0,
             "reference": "Geometric Mean (MSI)",
             "silence-threshold": -70.0,

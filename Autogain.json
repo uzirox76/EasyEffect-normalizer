@@ -7,7 +7,7 @@
             "output-gain": 0.0,
             "reference": "Geometric Mean (MSI)",
             "silence-threshold": -70.0,
-            "target": -9.99999999999998
+            "target": -20.0
         },
         "blocklist": [],
         "equalizer#0": {
@@ -277,15 +277,15 @@
             "bypass": false
         },
         "limiter#0": {
-            "alr": false,
+            "alr": true,
             "alr-attack": 1.0,
             "alr-knee": 0.0,
             "alr-release": 10.0,
-            "attack": 2.0,
+            "attack": 4.0,
             "bypass": false,
             "dithering": "None",
             "external-sidechain": false,
-            "gain-boost": true,
+            "gain-boost": false,
             "input-gain": 0.0,
             "lookahead": 4.0,
             "mode": "Herm Thin",
